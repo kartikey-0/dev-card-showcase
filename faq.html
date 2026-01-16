@@ -912,18 +912,17 @@
     const toggleBtn = document.getElementById("themeToggle");
     const body = document.body;
 
-    if (localStorage.getItem("theme") === "light") {
-      body.classList.add("light-mode");
-      toggleBtn.textContent = "🌞";
-    }
+    // Load saved theme
+    const savedTheme = localStorage.getItem("theme") || "dark";
+    body.setAttribute("data-theme", savedTheme);
+    toggleBtn.textContent = savedTheme === "light" ? "☀️" : "🌙";
 
     toggleBtn.addEventListener("click", () => {
-      body.classList.toggle("light-mode");
-      toggleBtn.textContent = body.classList.contains("light-mode") ? "🌞" : "🌙";
-      localStorage.setItem(
-        "theme",
-        body.classList.contains("light-mode") ? "light" : "dark"
-      );
+      const currentTheme = body.getAttribute("data-theme") || "dark";
+      const newTheme = currentTheme === "dark" ? "light" : "dark";
+      body.setAttribute("data-theme", newTheme);
+      toggleBtn.textContent = newTheme === "light" ? "☀️" : "🌙";
+      localStorage.setItem("theme", newTheme);
     });
   </script>
   

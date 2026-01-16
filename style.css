@@ -208,7 +208,7 @@
 /* =========================================
    LIGHT THEME VARIABLES
    ========================================= */
-body.light-mode {
+body[data-theme="light"] {
     /* Light Theme Colors */
     --bg-primary: #f8fafc;
     --bg-secondary: #ffffff;

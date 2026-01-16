@@ -1040,18 +1040,19 @@ hamburger.addEventListener('click', () => {
 
 // Theme toggle
 themeToggle.addEventListener('click', () => {
-    document.body.classList.toggle('light-mode');
-    themeToggle.textContent = document.body.classList.contains('light-mode') ? '🌞' : '🌙';
+    const currentTheme = document.body.getAttribute('data-theme') || 'dark';
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.body.setAttribute('data-theme', newTheme);
+    themeToggle.textContent = newTheme === 'light' ? '☀️' : '🌙';
     
     // Save preference
-    localStorage.setItem('theme', document.body.classList.contains('light-mode') ? 'light' : 'dark');
+    localStorage.setItem('theme', newTheme);
 });
 
 // Load saved theme
-if (localStorage.getItem('theme') === 'light') {
-    document.body.classList.add('light-mode');
-    themeToggle.textContent = '🌞';
-}
+const savedTheme = localStorage.getItem('theme') || 'dark';
+document.body.setAttribute('data-theme', savedTheme);
+themeToggle.textContent = savedTheme === 'light' ? '☀️' : '🌙';
 
 // Close mobile menu when clicking outside
 document.addEventListener('click', (e) => {

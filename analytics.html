@@ -856,10 +856,9 @@
         // Initialize
         document.addEventListener('DOMContentLoaded', function() {
             // Initialize theme
-            if (localStorage.getItem('theme') === 'light') {
-                document.body.classList.add('light-mode');
-                themeToggle.textContent = '🌞';
-            }
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            document.body.setAttribute('data-theme', savedTheme);
+            themeToggle.textContent = savedTheme === 'light' ? '☀️' : '🌙';
 
             // Load data
             loadAllData();
@@ -879,14 +878,11 @@
 
         // Theme Toggle
         themeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('light-mode');
-            if (document.body.classList.contains('light-mode')) {
-                themeToggle.textContent = '🌞';
-                localStorage.setItem('theme', 'light');
-            } else {
-                themeToggle.textContent = '🌙';
-                localStorage.setItem('theme', 'dark');
-            }
+            const currentTheme = document.body.getAttribute('data-theme') || 'dark';
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.body.setAttribute('data-theme', newTheme);
+            themeToggle.textContent = newTheme === 'light' ? '☀️' : '🌙';
+            localStorage.setItem('theme', newTheme);
             
             // Update charts for theme change
             updateChartsTheme();
