@@ -1632,6 +1632,9 @@
     "github": "https://github.com/your-github-username"
   }
 },
+{
+  "title": "Retro Learning Arcade 🎮",
+  "description": "A retro-style educational arcade with mini games like logic puzzles, math challenges, and quizzes.",
 
 {
   "title": "LearnXO",
@@ -1640,6 +1643,16 @@
     "HTML",
     "CSS",
     "JavaScript",
+    "Gamification",
+    "Education",
+    "Retro UI"
+  ],
+  "links": {
+    "live": "./projects/retro-learning-arcade/index.html"
+  },
+  "author": {
+    "name": "Sneha Amballa",
+    "github": "https://github.com/your-github-username"
     "Education"
   ],
   "links": {
