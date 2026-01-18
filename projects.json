@@ -1519,257 +1519,178 @@
                    }
     },
     {
-        "title": "Sketchgrid 🎨",
-        "description": "SketchGrid Digit Trainer is an interactive web application where users draw digits on a grid and train the system by labeling their own examples.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Creative Coding",
-            "Grid"
-        ],
-        "links": {
-            "live": "./projects/sketchgrid/index.html"
-        },
-        "author": {
-            "name": "PavanKarthik",
-            "github": "https://github.com/pavanakarthik12"
-        }
-    },
-    {
-        "title": "Digital Burnout Awareness 🔥",
-        "description": "An awareness page that explains digital burnout, its symptoms, causes, and simple prevention tips.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "Awareness",
-            "Mental Health",
-            "Digital Wellbeing"
-        ],
-        "links": {
-            "live": "./projects/digital-burnout-awareness/index.html"
-        },
-        "author": {
-            "name": "Sneha Amballa",
-            "github": "https://github.com/your-github-username"
-        }
-    },
-    {
-        "title": "Weekly Productivity Reflection 📝",
-        "description": "A calm reflection page that helps users review their weekly productivity and identify improvements.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Productivity",
-            "Self Reflection"
-        ],
-        "links": {
-            "live": "./projects/weekly-productivity-reflection/index.html"
-        },
-        "author": {
-            "name": "Sneha Amballa",
-            "github": "https://github.com/your-github-username"
-        }
-    },
-    {
-        "title": "Productivity Myths: Myth vs Fact 🧠",
-        "description": "A Myth vs Fact guide that debunks common productivity myths followed by students.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "Productivity",
-            "Education",
-            "Student Wellness"
-        ],
-        "links": {
-            "live": "./projects/productivity-myths/index.html"
-        },
-        "author": {
-            "name": "Sneha Amballa",
-            "github": "https://github.com/your-github-username"
-        }
-    },
-    {
-        "title": "Study–Rest Balance Guide ⚖️",
-        "description": "A visual guide that explains the importance of balancing study time with proper rest and recovery.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "Education",
-            "Student Wellness",
-            "UI Design"
-        ],
-        "links": {
-            "live": "./projects/study-rest-balance-guide/index.html"
-        },
-        "author": {
-            "name": "Sneha Amballa",
-            "github": "https://github.com/your-github-username"
-        }
-    },
-    {
-        "title": "Productivity Self-Assessment Quiz 📊",
-        "description": "An interactive quiz that helps users evaluate productivity habits and identify areas for improvement.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Productivity",
-            "Self Assessment"
-        ],
-        "links": {
-            "live": "./projects/productivity-self-assessment-quiz/index.html"
-        },
-        "author": {
-            "name": "Sneha Amballa",
-            "github": "https://github.com/your-github-username"
-        }
-    },
-    {
-        "title": "Study Breaks & Focus Techniques 🧠",
-        "description": "A practical guide that teaches effective study breaks and focus techniques to improve learning efficiency.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "Productivity",
-            "Study Tips",
-            "Student Wellness"
-        ],
-        "links": {
-            "live": "./projects/study-breaks-focus-guide/index.html"
-        },
-        "author": {
-            "name": "Sneha Amballa",
-            "github": "https://github.com/your-github-username"
-        }
-    },
-    {
-        "title": "Healthy Screen Time & Digital Balance 🧘‍♂️",
-        "description": "An awareness page that educates users about healthy screen-time habits and maintaining digital balance.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "Awareness",
-            "Digital Wellbeing",
-            "Health"
-        ],
-        "links": {
-            "live": "./projects/healthy-screen-time-awareness/index.html"
-        },
-        "author": {
-            "name": "Sneha Amballa",
-            "github": "https://github.com/your-github-username"
-        }
-    },
-    {
-        "title": "Healthy Study Habits Checklist ✅",
-        "description": "An interactive checklist that helps students track and build healthy study habits.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Education",
-            "Student Wellness"
-        ],
-        "links": {
-            "live": "./projects/healthy-study-habits-checklist/index.html"
-        },
-        "author": {
-            "name": "Sneha Amballa",
-            "github": "https://github.com/your-github-username"
-        }
-    },
-    {
-        "title": "Exam Stress Awareness 🌱",
-        "description": "An educational page that helps students understand exam stress and manage anxiety healthily.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "Awareness",
-            "Mental Health",
-            "Student Wellness"
-        ],
-        "links": {
-            "live": "./projects/exam-stress-awareness/index.html"
-        },
-        "author": {
-            "name": "Sneha Amballa",
-            "github": "https://github.com/your-github-username"
-        }
-    },
-    {
-        "title": "Visual Daily Routine Planner ⏰",
-        "description": "A modern, student-friendly daily planner with time blocks, editable tasks, and clean UI.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "UI/UX",
-            "Productivity"
-        ],
-        "links": {
-            "live": "./projects/daily-routine-planner/index.html"
-        },
-        "author": {
-            "name": "Sneha Amballa",
-            "github": "https://github.com/your-github-username"
-        }
-    },
-    {
-        "title": "Distractions Tracker 🎯",
-        "description": "A simple tracker that helps users identify common distractions and improve focus during study sessions.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Productivity",
-            "Focus"
-        ],
-        "links": {
-            "live": "./projects/distractions-tracker/index.html"
-        },
-        "author": {
-            "name": "Sneha Amballa",
-            "github": "https://github.com/your-github-username"
-        }
-    },
-    {
-        "title": "Retro Learning Arcade 🎮",
-        "description": "A retro-style educational arcade with mini games like logic puzzles, math challenges, and quizzes.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Gamification",
-            "Education",
-            "Retro UI"
-        ],
-        "links": {
-            "live": "./projects/retro-learning-arcade/index.html"
-        },
-        "author": {
-            "name": "Sneha Amballa",
-            "github": "https://github.com/your-github-username"
-        }
-    },
-    {
-        "title": "LearnXO",
-        "description": "LearnXO is an interactive educational web project designed to help users learn concepts through structured lessons, quizzes, and simple visual explanations using pure HTML, CSS, and JavaScript.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Education"
-        ],
-        "links": {
-            "live": "./projects/LearnXO/index.html"
-        },
-        "author": {
-            "name": "PavanKarthik",
-            "github": "https://github.com/pavanakarthik12"
-        }
-    }
+  "title": "Sketchgrid 🎨",
+  "description": "SketchGrid Digit Trainer is an interactive web application where users draw digits on a grid and train the system by labeling their own examples.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Creative Coding",
+    "Grid"
+  ],
+  "links": {
+    "live": "./projects/sketchgrid/index.html"
+  },
+  "author": {
+    "name": "PavanKarthik",
+    "github": "https://github.com/pavanakarthik12"
+  }
+},
+{
+  "title": "Digital Burnout Awareness 🔥",
+  "description": "An awareness page that explains digital burnout, its symptoms, causes, and simple prevention tips.",
+  "title": "Weekly Productivity Reflection 📝",
+  "description": "A calm reflection page that helps users review their weekly productivity and identify improvements.",
+  "title": "Productivity Myths: Myth vs Fact 🧠",
+  "description": "A Myth vs Fact guide that debunks common productivity myths followed by students.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "Productivity",
+    "Education",
+    "Student Wellness"
+  ],
+  "links": {
+    "live": "./projects/productivity-myths/index.html"
+  "title": "Study–Rest Balance Guide ⚖️",
+  "description": "A visual guide that explains the importance of balancing study time with proper rest and recovery.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "Education",
+    "Student Wellness",
+    "UI Design"
+  ],
+  "links": {
+    "live": "./projects/study-rest-balance-guide/index.html"
+  "title": "Productivity Self-Assessment Quiz 📊",
+  "description": "An interactive quiz that helps users evaluate productivity habits and identify areas for improvement.",
+  "title": "Study Breaks & Focus Techniques 🧠",
+  "description": "A practical guide that teaches effective study breaks and focus techniques to improve learning efficiency.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "Productivity",
+    "Study Tips",
+    "Student Wellness"
+  ],
+  "links": {
+    "live": "./projects/study-breaks-focus-guide/index.html"
+  "title": "Healthy Screen Time & Digital Balance 🧘‍♂️",
+  "description": "An awareness page that educates users about healthy screen-time habits and maintaining digital balance.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "Awareness",
+    "Mental Health",
+    "Digital Wellbeing"
+  ],
+  "links": {
+    "live": "./projects/digital-burnout-awareness/index.html"
+    "Digital Wellbeing",
+    "Health"
+  ],
+  "links": {
+    "live": "./projects/healthy-screen-time-awareness/index.html"
+  "title": "Healthy Study Habits Checklist ✅",
+  "description": "An interactive checklist that helps students track and build healthy study habits.",
+  "title": "Exam Stress Awareness 🌱",
+  "description": "An educational page that helps students understand exam stress and manage anxiety healthily.",
+  "title": "Visual Daily Routine Planner ⏰",
+  "description": "A modern, student-friendly daily planner with time blocks, editable tasks, and clean UI.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Productivity",
+    "Self Reflection"
+  ],
+  "links": {
+    "live": "./projects/weekly-productivity-reflection/index.html"
+  },
+  "author": {
+    "name": "Sneha Amballa",
+    "github": "https://github.com/your-github-username"
+  }
+},
+{
+  "title": "Distractions Tracker 🎯",
+  "description": "A simple tracker that helps users identify common distractions and improve focus during study sessions.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Productivity",
+    "Focus"
+  ],
+  "links": {
+    "live": "./projects/distractions-tracker/index.html"
+    "Self Assessment"
+  ],
+  "links": {
+    "live": "./projects/productivity-self-assessment-quiz/index.html"
+    "Student Wellness"
+  ],
+  "links": {
+    "live": "./projects/healthy-study-habits-checklist/index.html"
+    "Awareness",
+    "Student Wellness"
+  ],
+  "links": {
+    "live": "./projects/exam-stress-awareness/index.html"
+    "UI/UX",
+    "Productivity"
+  ],
+  "links": {
+    "live": "./projects/daily-routine-planner/index.html"
+  },
+  "author": {
+    "name": "Sneha Amballa",
+    "github": "https://github.com/your-github-username"
+  }
+},
+{
+  "title": "Interactive Drawing Canvas ✏️",
+  "description": "A hands-on learning canvas for drawing shapes or numbers with instant feedback.",
+  "title": "Retro Learning Arcade 🎮",
+  "description": "A retro-style educational arcade with mini games like logic puzzles, math challenges, and quizzes.",
+
+{
+  "title": "LearnXO",
+  "description": "LearnXO is an interactive educational web project designed to help users learn concepts through structured lessons, quizzes, and simple visual explanations using pure HTML, CSS, and JavaScript.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Canvas",
+    "Education",
+    "Interactive Learning"
+  ],
+  "links": {
+    "live": "./projects/interactive-drawing-canvas/index.html"
+    "Gamification",
+    "Education",
+    "Retro UI"
+  ],
+  "links": {
+    "live": "./projects/retro-learning-arcade/index.html"
+  },
+  "author": {
+    "name": "Sneha Amballa",
+    "github": "https://github.com/your-github-username"
+  }
+}
+
+    "Education"
+  ],
+  "links": {
+    "live": "./projects/LearnXO/index.html"
+  },
+  "author": {
+    "name": "PavanKarthik",
+    "github": "https://github.com/pavanakarthik12"
+  }
+}
 
 
 
