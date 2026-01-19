@@ -356,6 +356,22 @@
         }
     },
     {
+        "title": "Simple Portfolio Project",
+        "description": "A simple portfolio website to showcase projects and skills.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/simple-portfolio/"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+    {
         "title": "Countdown Timer",
         "description": "Countdown Timer",
         "tags": [
