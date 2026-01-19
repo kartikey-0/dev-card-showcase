@@ -3646,6 +3646,8 @@
   }
 },
 {
+  "title": "Continuous Line Drawing Challenge ✍️",
+  "description": "A drawing challenge where users must draw without lifting the mouse.",
   "title": "Color Sorting Puzzle 🧪🎨",
   "description": "A colorful logic puzzle where users sort layered colors into correct jars.",
   "title": "Spot the Mistake 🔍",
@@ -3658,6 +3660,12 @@
     "HTML",
     "CSS",
     "JavaScript",
+    "Canvas",
+    "Game",
+    "Creativity"
+  ],
+  "links": {
+    "live": "./projects/continuous-line-drawing-challenge/index.html"
     "Game",
     "Logic",
     "Puzzle"
