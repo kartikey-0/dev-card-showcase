@@ -3815,6 +3815,26 @@
     "name": "Sneha Amballa",
     "github": "https://github.com/Sneha-Amballa"
   }
+},
+{
+    "title": "Space Invaders Retro Shooter",
+    "description": "A classic Space Invaders–style arcade game featuring a player-controlled spaceship, alien enemies, keyboard shooting mechanics, score tracking, and a lives system using HTML Canvas.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Canvas",
+        "Game",
+        "Retro"
+    ],
+    "links": {
+        "live": "https://your-username.github.io/dev-card-showcase/games/space-invaders/"
+    },
+    "author": {
+        "name": "Amballa Sneha",
+        "github": "https://github.com/Sneha-Amballa"
+    }
 }
+
 
 ]
