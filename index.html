@@ -1413,6 +1413,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Add event listener to theme toggle button
             themeToggle.addEventListener('click', toggleTheme);
+
+            // Update copyright year dynamically
+            const copyrightElement = document.getElementById('copyright');
+            if (copyrightElement) {
+                const currentYear = new Date().getFullYear();
+                copyrightElement.textContent = `© ${currentYear} Community Hall of Fame`;
+            }
         });
     </script>
 
