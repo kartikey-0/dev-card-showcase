@@ -1,12 +1,13 @@
 .sidebar {
   width: 240px;
-  background: #efebe9;
-  border-right: 3px solid #3e2723;
+  background: rgba(255, 255, 255, 0.5); /* very light transparency */
+  border-right: 3px solid #511910;
   padding: 12px;
   display: flex;
   flex-direction: column;
   transition: width 0.3s;
   overflow: hidden;
+  backdrop-filter: blur(6px); /* optional: makes background blurry and stylish */
 }
 
 .sidebar.collapsed {
@@ -44,6 +45,13 @@
   font-size: 14px;
   display: none; 
 }
+
+#bgUpload {
+  width: 100%;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
 
 .sidebar.collapsed + #openSidebarBtn {
   display: block;

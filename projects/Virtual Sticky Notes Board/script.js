@@ -1,6 +1,7 @@
 const pagesBox = document.getElementById("pages");
 const board = document.getElementById("board");
 const addPage = document.getElementById("addPage");
+let activeTextarea = null;
 
 function renderPages() {
   pagesBox.innerHTML = "";
@@ -17,29 +18,29 @@ function renderPages() {
 const fontSelect = document.getElementById("fontSelect");
 let currentFont = localStorage.getItem("font") || "'Segoe UI', sans-serif";
 fontSelect.value = currentFont;
+const fontSizeSelect = document.getElementById("fontSizeSelect");
+let currentFontSize = localStorage.getItem("fontSize") || "14px";
+fontSizeSelect.value = currentFontSize;
 
 fontSelect.onchange = () => {
   currentFont = fontSelect.value;
   localStorage.setItem("font", currentFont);
 
-  document.querySelectorAll(".note textarea").forEach(t => {
-    t.style.fontFamily = currentFont;
-  });
+  if (activeTextarea) {
+    activeTextarea.style.fontFamily = currentFont;
+  }
 };
-
-const fontSizeSelect = document.getElementById("fontSizeSelect");
-let currentFontSize = localStorage.getItem("fontSize") || "14px";
-fontSizeSelect.value = currentFontSize;
 
 fontSizeSelect.onchange = () => {
   currentFontSize = fontSizeSelect.value;
   localStorage.setItem("fontSize", currentFontSize);
 
-  // Update all existing notes
-  document.querySelectorAll(".note textarea").forEach(t => {
-    t.style.fontSize = currentFontSize;
-  });
+  if (activeTextarea) {
+    activeTextarea.style.fontSize = currentFontSize;
+  }
 };
+
+
 
 function placeOnBoard(page) {
   const note = document.createElement("div");
@@ -72,13 +73,19 @@ function placeOnBoard(page) {
   del.className = "delete";
   del.textContent = "🗑";
   del.title = "Delete Note";
+    const ta = document.createElement("textarea");
+    ta.value = page.text;
+    ta.style.fontFamily = page.font || currentFont;
+    ta.style.fontSize = page.fontSize || currentFontSize;
 
-  const ta = document.createElement("textarea");
-  ta.value = page.text;
-  ta.style.fontFamily = currentFont;
-  ta.style.fontSize = currentFontSize;
+    // When user clicks this note, make it active
+    ta.addEventListener("focus", () => {
+    activeTextarea = ta;
 
-
+    // Sync sidebar controls with this note
+    fontSelect.value = ta.style.fontFamily;
+    fontSizeSelect.value = ta.style.fontSize;
+    });
 
   const data = { id: Date.now(), x: 60, y: 60, color: page.color, text: "" };
   boardNotes.push(data);
@@ -132,7 +139,9 @@ addPage.onclick = () => {
   pages.push({
     id: pages.length + 1,
     color: colors[Math.floor(Math.random() * colors.length)],
-    text: ""
+    text: "",
+    font: currentFont,     
+    fontSize: currentFontSize 
   });
   saveAll();
   renderPages();
@@ -158,7 +167,28 @@ openSidebarBtn.onclick = () => {
   openSidebarBtn.style.display = "none";
 };
 
+const bgUpload = document.getElementById("bgUpload");
+const app = document.getElementById("app");
 
+const savedBg = localStorage.getItem("boardBg");
+if (savedBg) {
+  app.style.background = `url(${savedBg}) center center / cover no-repeat`;
+}
+
+// When user uploads an image
+bgUpload.addEventListener("change", (e) => {
+  const file = e.target.files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.onload = function(ev) {
+      const imageUrl = ev.target.result;
+
+      app.style.background = `url(${imageUrl}) center center / cover no-repeat`;
+      localStorage.setItem("boardBg", imageUrl);
+    };
+    reader.readAsDataURL(file);
+  }
+});
 
 
 renderPages();

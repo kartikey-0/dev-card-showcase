@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="note.css">
 </head>
 <body>
-  <div class="app">
+  <div class="app" id="app">
     <aside class="sidebar" id="sidebar">
       <div class="sidebar-header">
             <h2>📒 Notebook</h2>
@@ -45,6 +45,9 @@
         <option value="18px">Extra Large</option>
         <option value="20px">Huge</option>
       </select>
+      <label class="font-label">Board Background</label>
+      <input type="file" id="bgUpload" accept="image/*">
+
 
       <div id="pages"></div>
       <button id="addPage">+ New Page</button>
