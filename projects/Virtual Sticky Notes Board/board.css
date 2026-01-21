@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+#board {
+  flex: 1;
+  position: relative;
+  background: linear-gradient(135deg, #4e342e, #6d4c41);
+  background-size: cover;
+  overflow: hidden;
+}

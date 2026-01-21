@@ -1,0 +1,36 @@
+.sidebar {
+  width: 240px;
+  background: #efebe9;
+  border-right: 3px solid #3e2723;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  margin: 0 0 10px;
+  color: #3e2723;
+}
+
+#pages {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.page-btn {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 2px solid #000;
+  background: var(--c);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#addPage {
+  padding: 8px;
+  border: none;
+  background: #795548;
+  color: white;
+  cursor: pointer;
+}
