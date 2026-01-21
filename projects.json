@@ -50,7 +50,23 @@
             "github": "https://github.com/omkarhole"
         }
     },
-      {
+{
+  "title": "2048 – Luxury Edition",
+  "description": "A modern and visually refined version of the classic 2048 puzzle game featuring smooth tile animations, glassmorphism-inspired design, responsive controls, and score tracking for a satisfying and polished gameplay experience.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "links": {
+    "live": "./projects/2048-puzzle/index.html"
+  },
+  "author": {
+    "name": "Omkar",
+    "github": "https://github.com/omkarhole"
+  }
+}
+
         "title": "CI-CD Pipeline Simulator",
         "description": "A web application that simulates a Continuous Integration and Continuous Deployment (CI-CD) pipeline. Users can visualize the stages of code integration, testing, and deployment in a simplified manner.",
         "tags": [
