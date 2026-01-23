@@ -1,4 +1,22 @@
 [
+
+     {
+        "title": "Symon Says Game",
+        "description": "A fun and interactive memory game where players must repeat increasingly complex sequences of colors and sounds. Features multiple difficulty levels, score tracking, and engaging animations.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Utility Tool"
+        ],
+        "links": {
+            "live": "./projects/simon-game/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Advanced Text Case Converter",
         "description": "A powerful text utility that converts text into multiple cases including uppercase, lowercase, sentence case, title case, and toggle case with live preview, undo history, and keyboard shortcuts.",
@@ -16,6 +34,22 @@
             "github": "https://github.com/Sneha-Amballa"
         }
     },
+            {
+        "title": "Physics Sandbox",
+        "description": "A physics simulation sandbox with interactive controls and visualizations.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/physics-sandbox/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
      {
         "title": "JSON Formattor",
         "description": "A utility tool to format and minify JSON data with a user-friendly interface and live preview.",
@@ -31,6 +65,22 @@
         "author": {
             "name": "Omkar",
             "github": "https://github.com/omkarhole"
+        }
+    },
+                {
+        "title": "Memory Game",
+        "description": "A classic memory card matching game with multiple themes and difficulty levels.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/memory-game/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
         }
     },
      {
@@ -191,6 +241,7 @@
             "github": "https://github.com/neeru24"
         }
     },
+    {
     "title": "PDF Watermark Tool",
     "description": "Browser-based tool to add text/image watermarks to PDFs with full customization. Process files locally for privacy.",
     "tags": [
@@ -3783,10 +3834,10 @@
             "github": "https://github.com/Sneha-Amballa"
         }
     },
-
+/// Bubbble Ppop Blitzzzzzzzzzzzz
     {
-        "title": "Fruit Catcher",
-        "description": "Catch-and-collect arcade game with streak-based bonuses where you move the basket to catch falling fruit and keep all three lives intact.",
+        "title": "Bubble Pop Blitz",
+        "description": "Timed click-to-pop accuracy challenge where you pop as many drifting bubbles as you can before the 30-second timer ends.",
         "tags": [
             "HTML",
             "CSS",
@@ -3794,7 +3845,7 @@
             "Game"
         ],
         "links": {
-            "live": "./projects/fruit-catcher/index.html"
+            "live": "./projects/bubble-pop-blitz/index.html"
         },
         "author": {
             "name": "Gupta-02",
