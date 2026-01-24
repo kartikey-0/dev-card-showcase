@@ -1923,6 +1923,22 @@
             "github": "https://github.com/omkarhole"
         }
     },
+     {
+        "title": "Dsa cheat sheet",
+        "description": "A comprehensive DSA cheat sheet that provides quick reference to common data structures and algorithms, including their time and space complexities.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/dsa-cheat-sheet/index.html"
+        },
+        "author": {
+            "name": "omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Truth And Dare",
         "description": "A fun web application that generates random truth questions and dare challenges for users to play with friends.",
