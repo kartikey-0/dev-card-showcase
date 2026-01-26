@@ -5944,27 +5944,35 @@
 {
     "title": "Rocketjs",
     "description": "A JavaScript library for creating rocket animations. It provides a simple and intuitive way to define and work with rocket animations in your JavaScript applications.",
-    "tags": [
-        "JavaScript",
-        "Rocket Animation",
-        "Library"
-    ],
+    "tags": ["JavaScript", "Rocket Animation", "Library"],
     "links": {
-        "live": "./projects/rocketjs/index.html"
+      "live": "./projects/rocketjs/index.html"
     },
     "author": {
-        "name": "PavanKarthik",
-        "github": "https://github.com/pavanakarthik12"
+      "name": "PavanKarthik",
+      "github": "https://github.com/pavanakarthik12"
     }
-},
-{
+  },
+  {
+    "title": "chromawave",
+    "description": "A JavaScript library for creating chroma-style visualizations. It provides a simple and intuitive way to define and work with chroma-style visualizations in your JavaScript applications.",
+    "tags": ["JavaScript", "Chroma Visualization", "Library"],
+    "links": {
+      "live": "./projects/chromawave/index.html"
+    }
+  },
+  {
+    "title": "Businessjs",
+    "description": "A JavaScript library for creating business-style visualizations. It provides a simple and intuitive way to define and work with business-style visualizations in your JavaScript applications.",
+    "tags": ["JavaScript", "Business Visualization", "Library"],
+    "links": {
+      "live": "./projects/businessjs/index.html"
+    }
+  },
+  {
     "title": "Ghostnet",
     "description": "A JavaScript library for creating ghost animations. It provides a simple and intuitive way to define and work with ghost animations in your JavaScript applications.",
-    "tags": [
-        "JavaScript",
-        "Ghost Animation",
-        "Library"
-    ],
+    "tags": ["JavaScript", "Ghost Animation", "Library"],
     "links": {
         "live": "./projects/ghostnet/index.html"
     },
@@ -5975,12 +5983,13 @@
 },
 {
     "title" : "Typemorph",
+      "live": "./projects/ghostnet/index.html"
+    }
+  },
+  {
+    "title": "Typemorph",
     "description": "A JavaScript library for creating typewriter-style animations. It provides a simple and intuitive way to define and work with typewriter-style animations in your JavaScript applications.",
-    "tags": [
-        "JavaScript",
-        "Typewriter Animation",
-        "Library"
-    ],
+    "tags": ["JavaScript", "Typewriter Animation", "Library"],
     "links": {
         "live": "./projects/typemorph/index.html"
     },
@@ -5997,8 +6006,15 @@
         "CSS Physics",
         "Library"
     ],
+      "live": "./projects/typemorph/index.html"
+    }
+  },
+  {
+    "title": "CssPhysicslab",
+    "description": "A JavaScript library for creating physics-based animations using CSS. It provides a simple and intuitive way to define and work with physics-based animations.",
+    "tags": ["JavaScript", "CSS Physics", "Library"],
     "links": {
-        "live": "./projects/cssphysicslab/index.html"
+      "live": "./projects/cssphysicslab/index.html"
     },
     "author": {
         "name": "PavanKarthik",
@@ -6006,23 +6022,21 @@
     }
 },
 {
+      "name": "PavanKarthik",
+      "github": "https://github.com/pavanakarthik12"
+    }
+  },
+  {
     "title": "Skyrail Surfer (3D)",
     "description": "Grind and jump across floating rails high above the clouds in this fast-paced 3D game. Auto-grind rails, manual jumps, mid-air tricks for score.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Three.js",
-        "Game",
-        "3D"
-    ],
+    "tags": ["HTML", "CSS", "JavaScript", "Three.js", "Game", "3D"],
     "links": {
-        "live": "./projects/skyrail-surfer-3d/index.html"
+      "live": "./projects/skyrail-surfer-3d/index.html"
     },
     "author": {
-        "name": "Gupta-02",
-        "github": "https://github.com/Gupta-02"
+      "name": "Gupta-02",
+      "github": "https://github.com/Gupta-02"
     }
-}
+  }
 ]
 
