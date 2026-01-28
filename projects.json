@@ -1288,6 +1288,22 @@
         }
     },
     {
+        "title": "Breathing Meditation App",
+        "description": "A calming web application that guides users through breathing exercises with visual animations and soothing sounds to promote relaxation and mindfulness.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/BreathingMeditation/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
+    {
         "title": "Colorful Quiz Challenge",
         "description": "A bright, engaging quiz website with cheerful pastel shades and random questions on various fun topics. Features score tracking, hints, and celebration animations.",
         "tags": [
