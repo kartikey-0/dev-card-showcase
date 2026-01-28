@@ -466,16 +466,19 @@ document.addEventListener("DOMContentLoaded", () => {
     // <!-- Theme Toggle Script -->
 
         document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('themeToggle');
             const body = document.body;
 
             // Function to set theme
             function setTheme(theme) {
                 body.setAttribute('data-theme', theme);
-                localStorage.setItem('theme', theme);
-                const themeToggle = document.getElementById('themeToggle');
-                if (themeToggle) {
-                    themeToggle.textContent = theme === 'dark' ? '🌙' : '☀️';
+                if (theme === 'light') {
+                    body.classList.add('light-mode');
+                } else {
+                    body.classList.remove('light-mode');
                 }
+                localStorage.setItem('theme', theme);
+                themeToggle.textContent = theme === 'dark' ? '🌙' : '☀️';
             }
 
             // Function to toggle theme
@@ -489,16 +492,8 @@ document.addEventListener("DOMContentLoaded", () => {
             const savedTheme = localStorage.getItem('theme') || 'dark';
             setTheme(savedTheme);
 
-            // Initialize theme toggle when navbar is loaded
-            document.addEventListener('navbarLoaded', () => {
-                const themeToggle = document.getElementById('themeToggle');
-                if (themeToggle) {
-                    themeToggle.addEventListener('click', toggleTheme);
-                    // Update the button text based on current theme
-                    const currentTheme = body.getAttribute('data-theme') || 'dark';
-                    themeToggle.textContent = currentTheme === 'dark' ? '🌙' : '☀️';
-                }
-            });
+            // Add event listener to theme toggle button
+            themeToggle.addEventListener('click', toggleTheme);
 
             // Update copyright year dynamically
             const copyrightElement = document.getElementById('copyright');
