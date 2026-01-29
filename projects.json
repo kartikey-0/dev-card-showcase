@@ -6875,6 +6875,26 @@
       "name": "Gupta-02",
       "github": "https://github.com/Gupta-02"
     }
+  },
+  {
+    "title": "Mood-Based Background",
+    "description": "Background color adapts based on user interaction level, creating dynamic and responsive UI feedback that enhances UX experimentation.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Animation",
+      "Interactive",
+      "UX",
+      "Dynamic"
+    ],
+    "links": {
+      "live": "./projects/Mood-Based-Background/"
+    },
+    "author": {
+      "name": "Gupta",
+      "github": "https://github.com/Gupta-02"
+    }
   }
 ]
 
