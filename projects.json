@@ -1382,6 +1382,22 @@
         }
     },
     {
+        "title": "Time Flow",
+        "description": "TimeFlow is a premium, high-performance time tracking application built for users who have a hard time managing \"TIME\" itself",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/timeflow/index.html"
+        },
+        "author": {
+            "name": "CodeMaster",
+            "github": "https://github.com/CodeMaster"
+        }
+    },
+    {
         "title": "Code Editor",
         "description": "A professional code editor with multi-language support, customizable themes, real-time preview, and essential features like code download and clearing.",
         "tags": [
