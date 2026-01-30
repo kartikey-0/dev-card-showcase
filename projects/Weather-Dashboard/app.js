@@ -1,3 +1,38 @@
+// --- Accessibility: Keyboard Navigation ---
+// Focus search input on load
+document.addEventListener('DOMContentLoaded', () => {
+  cityInput.focus();
+});
+
+// Allow tab/arrow navigation for unit toggle
+const unitButtons = [celsiusBtn, fahrenheitBtn];
+unitButtons.forEach((btn, idx) => {
+  btn.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+      e.preventDefault();
+      const next = (idx + (e.key === 'ArrowRight' ? 1 : -1) + unitButtons.length) % unitButtons.length;
+      unitButtons[next].focus();
+    }
+  });
+});
+
+// Allow Enter/Space to activate search and geo buttons
+[searchBtn, geoBtn].forEach(btn => {
+  btn.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      btn.click();
+    }
+  });
+});
+
+// Allow theme toggle with Enter/Space
+themeToggle.addEventListener('keydown', e => {
+  if (e.key === 'Enter' || e.key === ' ') {
+    e.preventDefault();
+    themeToggle.click();
+  }
+});
 // Weather Dashboard JavaScript
 // Uses OpenWeatherMap API (https://openweathermap.org/api) for weather and air quality
 
