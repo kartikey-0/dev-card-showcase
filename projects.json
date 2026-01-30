@@ -671,6 +671,23 @@
         }
     },
     {
+    "title": "Hovercraft Arena — Realistic Combat Edition",
+    "description": "A modern, physics-driven hovercraft combat game featuring realistic drift-based movement, intelligent enemy AI, boost mechanics, camera shake, and a premium futuristic arena design for an immersive battle experience.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "links": {
+        "live": "./projects/hovercraft-arena/index.html"
+    },
+    "author": {
+        "name": "Priyanshu",
+        "github": "https://github.com/PriyanshuSingh00-hub"
+    }
+    },
+
+    {
         "title": "Password Strength Checker",
         "description": "An advanced password strength checker with a security-scanner inspired UI that visually analyzes password robustness in real time. Features a circular shield meter, live threat verdicts, and a cyber-themed interface for intuitive security feedback.",
         "tags": [
