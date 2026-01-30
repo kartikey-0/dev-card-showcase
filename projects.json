@@ -6718,6 +6718,25 @@
     }
 },
 {
+    "title": "Cloud IDE",
+    "description": "A browser-based code editor with syntax highlighting, file management, and live preview features. Supports multiple programming languages and real-time collaboration.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Editor",
+        "Collaboration",
+        "Live Preview"
+    ],
+    "links": {
+        "live": "./projects/Cloud-IDE/index.html"
+    },
+    "author": {
+        "name": "Omkar",
+        "github": "https://github.com/omkarhole"
+    }
+},
+{
     "title": "Balloon Rise",
     "description": "Guide a balloon upward in this vertical scroller with gentle physics. Hold space or tap to rise, use arrow keys to drift laterally, and avoid spikes and wind gusts while reaching new heights.",
     "tags": [
