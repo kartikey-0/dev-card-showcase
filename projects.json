@@ -7037,6 +7037,29 @@
       "name": "Gupta",
       "github": "https://github.com/Gupta-02"
     }
+  },
+  {
+    "title": "Workout Planner",
+    "description": "Comprehensive workout planning and tracking interface with exercise schedules, progress visualization, and fitness tips. Create custom workout plans, track calories burned with interactive charts, monitor weekly progress, and get expert workout tips to improve consistency and effectiveness.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Fitness",
+      "Workout Planning",
+      "Progress Tracking",
+      "Charts",
+      "Exercise Database",
+      "Health",
+      "Local Storage"
+    ],
+    "links": {
+      "live": "./projects/workout-planner/"
+    },
+    "author": {
+      "name": "Gupta",
+      "github": "https://github.com/Gupta-02"
+    }
   }
 ]
 
