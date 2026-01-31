@@ -808,6 +808,22 @@
         }
     },
     {
+        "title": "synthlab",
+        "description": "A web-based synthesizer application that allows users to create and manipulate sounds using various waveforms, filters, and effects. Features a user-friendly interface for real-time sound design and experimentation.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/synthlab/"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+    {
     "title": "Hovercraft Arena — Realistic Combat Edition",
     "description": "A modern, physics-driven hovercraft combat game featuring realistic drift-based movement, intelligent enemy AI, boost mechanics, camera shake, and a premium futuristic arena design for an immersive battle experience.",
     "tags": [
