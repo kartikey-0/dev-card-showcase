@@ -1,5 +1,23 @@
 [
     {
+        "title": "Daily Fun Fact Challenge",
+        "description": "A gamified daily fun fact application where users guess whether a fact is true or false across multiple difficulty levels. Features a point-based reward system, winner status progression, and a responsive, visually engaging interface for learning through play.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Gamification",
+            "Learning"
+        ],
+        "links": {
+            "live": "./projects/daily-fun-fact/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
+    },
+    {
         "title": "Keyboard Drum Kit",
         "description": "An interactive drum machine where keyboard keys trigger realistic drum sounds using the Web Audio API. Press Q, W, E, R, A, S, D, F keys to play different drum samples including kick, snare, hi-hat, tom, clap, cymbal, percussion, and bass. Features smooth animations, visual feedback, and encourages playful exploration of keyboard input.",
         "tags": [
