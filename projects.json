@@ -796,6 +796,22 @@
             "github": "https://github.com/neeru24"
         }
     },
+       {
+        "title": "Video Thumbnail Generator",
+        "description": "A web application that generates custom video thumbnails with text overlays and image adjustments for enhanced visual appeal.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/thumbnail/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Number System Converter",
         "description": "A compact utility that converts numbers between Binary, Decimal, Octal, and Hexadecimal. Built with a consistent, responsive UI and clear visual output for quick and accurate base conversions.",
