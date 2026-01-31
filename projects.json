@@ -7530,27 +7530,23 @@
     }
   },
   {
-    "title": "Fitness Analytics Dashboard 📊",
-    "description": "A comprehensive fitness analytics dashboard for power users, featuring multi-metric tracking, interactive charts, goal setting, AI-powered insights, and advanced data visualization. Track steps, calories, distance, heart rate, weight, and active minutes with weekly/monthly trends, progress tracking, and personalized recommendations for optimal fitness management.",
+    "title": "Doctor Visit History 🧑‍⚕️",
+    "description": "A comprehensive medical visit history tracker to help users maintain their healthcare records. Features visit logging with doctor details, diagnosis, medications, and notes, a chronological timeline view of all visits, and a general notes section for ongoing health observations. Improves medical record keeping and helps prevent forgetting past diagnoses and treatments.",
     "tags": [
       "HTML",
       "CSS",
       "JavaScript",
-      "Chart.js",
-      "Fitness Tracking",
-      "Data Visualization",
-      "Analytics",
       "Health Monitoring",
-      "Interactive Dashboard",
-      "Goal Tracking",
-      "AI Insights",
-      "Responsive",
+      "Medical Records",
+      "Timeline",
       "Local Storage",
-      "Multi-metric",
-      "Advanced UI"
+      "Responsive",
+      "Healthcare",
+      "Patient History",
+      "Wellness"
     ],
     "links": {
-      "live": "./projects/Fitness-Analytics-Dashboard/"
+      "live": "./projects/Doctor-Visit-History/"
     },
     "author": {
       "name": "Gupta",
