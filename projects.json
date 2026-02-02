@@ -97,6 +97,25 @@
         "github": "https://github.com/your-github-username"
     }
 },
+{
+  "title": "Code Syntax Spotter",
+  "description": "An interactive developer-focused game that challenges users to identify syntax errors by comparing correct and buggy code snippets. Features a diff-style visual interface, click-to-spot gameplay, instant feedback, and a responsive, beginner-friendly UI designed to sharpen code reading and debugging skills.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Game",
+    "Developer Tools",
+    "UI/UX"
+  ],
+  "links": {
+    "live": "./projects/code-syntax-spotter/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
     {
         "title": "DrumsJS - Auto-Play Drum Machine",
         "description": "A lightweight, single-file drum machine with auto-play functionality. Features 8 drum pads (Kick, Snare, Hi-Hat, Tom, Clap, Cymbal, Percussion, Bass) playable via mouse clicks or keyboard keys (Q,W,E,R,A,S,D,F). Includes 5 beat patterns (Rock, Funk, Hip-Hop, Reggae, Disco), adjustable tempo (60-180 BPM), and smooth visual feedback with glassmorphism design.",
