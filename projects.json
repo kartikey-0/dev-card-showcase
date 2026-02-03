@@ -223,6 +223,24 @@
             "github": "https://github.com/omkarhole"
         }
     },
+    {
+    "title": "Task Sprint",
+    "description": "A responsive and visually polished task management application built with a dark blue theme. Users can add, edit, delete, and complete tasks with priority tagging, real-time statistics, and smooth interactions—designed to boost productivity through a clean, modern interface.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Productivity",
+        "Responsive Design"
+    ],
+    "links": {
+        "live": "./projects/task-sprint/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
     
        {
         "title": "Personal Portfolio Builder",
