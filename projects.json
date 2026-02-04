@@ -143,6 +143,25 @@
         }
     },
     {
+    "title": "Traffic Signal Optimization Simulator",
+    "description": "An animated, real-time traffic signal simulation that demonstrates adaptive signal control based on traffic density. Features moving vehicle animations, dynamic green-light allocation, congestion-aware timing optimization, and a modern dark-themed dashboard—illustrating smart city concepts through an interactive and visually engaging system.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "UI/UX",
+        "Simulation",
+        "Smart City"
+    ],
+    "links": {
+        "live": "./projects/traffic-signal-optimisation/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
+    {
         "title": "Keyboard Drum Kit",
         "description": "An interactive drum machine where keyboard keys trigger realistic drum sounds using the Web Audio API. Press Q, W, E, R, A, S, D, F keys to play different drum samples including kick, snare, hi-hat, tom, clap, cymbal, percussion, and bass. Features smooth animations, visual feedback, and encourages playful exploration of keyboard input.",
         "tags": [
