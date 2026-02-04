@@ -1,6 +1,7 @@
 /* =========================================
    THEME VARIABLES — DARK (DEFAULT)
    ========================================= */
+ 
 :root {
     /* Backgrounds */
     --bg-primary: #0f172a;
@@ -29,6 +30,8 @@
     --hover-border: rgba(135, 206, 235, 0.5);
     --hover-text: #87ceeb;
     --hover-glow: 0 0 40px rgba(135, 206, 235, 0.4);
+
+
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, #38bdf8, #3b82f6);
@@ -4140,7 +4143,7 @@ body[data-theme="light"] .toast-message {
   --primary-color: #60a5fa;
   --secondary-color: #a78bfa;
   --accent-color: #34d399;
-  --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  --gradient-primary: linear-gradient(135deg, #6366f1 0%, #60a5fa 100%);
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
