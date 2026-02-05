@@ -3179,6 +3179,120 @@
             "github": "https://github.com/your-github-username"
         }
     },
+     {
+        "title": "Arcide Game",
+        "description": "An exciting arcade-style game where players navigate a character through various levels filled with obstacles and enemies. Features smooth animations, power-ups, and score tracking for an engaging gaming experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/arcide/index.html"
+        },
+        "author": {
+            "name": "user",
+            "github": "https://github.com/your-github-username"
+        }
+    },
+     {
+        "title": "Brick Breaker Game",
+        "description": "A classic brick breaker game where players control a paddle to bounce a ball and break bricks. Features multiple levels, power-ups, and score tracking for an engaging gaming experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/brickbreaker/index.html"
+        },
+        "author": {
+            "name": "user",
+            "github": "https://github.com/your-github-username"
+        }
+    },
+      {
+        "title": "Castle Breach Simulator",
+        "description": "An engaging web-based game where players control a character to navigate through obstacles and collect iridium crystals. Features smooth animations, scoring system, and increasing difficulty levels for an exciting gaming experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/castle-breach-simulator/index.html"
+        },
+        "author": {
+            "name": "user",
+            "github": "https://github.com/your-github-username"
+        }
+    },
+      {
+        "title": "Desert Rally Mini",
+        "description": "An exciting desert rally racing game featuring realistic driving mechanics, multiple laps, and a night mode toggle. Players can use arrow keys or WASD to drive, space to brake, and shift to boost. Complete laps by hitting checkpoints!",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Canvas API"
+        ],
+        "links": {
+            "live": "./projects/desert-rally/index.html"
+        },
+        "author": {
+            "name": "user",
+            "github": "https://github.com/your-github-username"
+        }
+    },
+    
+      {
+        "title": "Gravity Skater",
+        "description": "A thrilling skateboarding game set in a low-gravity environment. Players can perform tricks, navigate obstacles",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/gravity/index.html"
+        },
+        "author": {
+            "name": "user",
+            "github": "https://github.com/your-github-username"
+        }
+    },
+       {
+        "title": "orbit cannon",
+        "description": "A space-themed shooting game where players control a cannon to shoot down incoming asteroids while managing limited ammunition and avoiding collisions.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/orbit/index.html"
+        },
+        "author": {
+            "name": "user",
+            "github": "https://github.com/your-github-username"
+        }
+    },
+           {
+        "title": "space junk cleanup",
+        "description": "A space-themed game where players control a spaceship to collect and clean up space debris while avoiding obstacles and managing fuel levels.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/space-junk/index.html"
+        },
+        "author": {
+            "name": "user",
+            "github": "https://github.com/your-github-username"
+        }
+    },
     {
         "title": "Periodic Table",
         "description": "The periodic table that provides detailed information about each element, including atomic number, symbol, atomic mass, and electron configuration. Features search functionality and responsive design for easy access on all devices.",
