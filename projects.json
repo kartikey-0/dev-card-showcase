@@ -3781,6 +3781,22 @@
         }
     },
     {
+        "title": "RGB color ",
+        "description": "A color picker tool that allows users to generate and customize RGB colors using sliders. Users can see the color preview and copy the RGB code for use in design projects.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/RGB-color/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+    {
         "title": "Finance Tracker",
         "description": "A simple and interactive personal finance app that allows users to track income and expenses, automatically calculates totals, and shows monthly balance. Perfect for managing budgets efficiently.",
         "tags": [
