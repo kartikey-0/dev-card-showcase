@@ -528,6 +528,23 @@
             "github": "https://github.com/your-github-username"
         }
     },
+      {
+        "title": "Vertical Clock",
+        "description": "A vertical clock display with customizable 12-hour and 24-hour formats, featuring a card-themed design option and smooth animations for a visually appealing timekeeping experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Utility Tool"
+        ],
+        "links": {
+            "live": "./projects/Vertical-clock/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Void Survivor",
         "description": "Void Survivor is a fast-paced top-down survival shooter built with pure HTML, CSS, and JavaScript using the Canvas API. The player navigates an endless arena with smooth WASD movement, mouse-aimed shooting, real-time enemy AI, a dynamic health bar, scoring system, and a polished sci-fi visual style. Designed as an advanced browser game with clean architecture and extensible gameplay mechanics.",
