@@ -566,7 +566,7 @@
             "github": "https://github.com/PriyanshuSingh00-hub"
         }
     },
-     },
+    
     {
         "title": "Maze Generator",
         "description": "A web-based maze generator that creates random mazes using a recursive backtracking algorithm. Users can customize the maze size and complexity, and the generated maze is displayed visually with a clean and responsive design.",
